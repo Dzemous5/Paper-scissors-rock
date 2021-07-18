@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papier, kamień, nożyce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="btns">
+        <button id="btn-papier" value="Papier" onclick="spr0()">Papier</button>
+        <button id="btn-kamien" value="Kamień" onclick="spr1()">Kamień</button>
+        <button id="btn-nozyce" value="Nożyce" onclick="spr2()">Nożyce</button>
+    </div>
+<p id="demo"></p>
+
+<div class="punktacje">
+    <div class="pktPlr">
+        <b>Gracz:</b><p id="pktPlr"></p>
+    </div>
+    <div class="pktPc">
+        <b>Komputer:</b><p id="pktPc"></p>
+    </div>
+</div> -->
+
+
+<div class="container">
+    <div id="header">
+        <h1>PAPIER</h1> <h1>KAMIEŃ</h1> <h1>NOŻYCE</h1>
+    </div>
+    <div id="symbols">
+        <div id="symbols-h3">
+            <h3>Wybierz symbol</h3>
+        </div>
+            <div id="symbols-img">
+                <img src="gesty/papier.png" alt="Papier" onclick="spr0()">
+                <img src="gesty/kamien.png" alt="Kamień" onclick="spr1()">
+                <img src="gesty/nozyce.png" alt="Nożyce" onclick="spr2()">
+            </div>
+    </div>
+    
+
+<div class="tabelaWyniki">
+    <div class="gracz-wybral">Gracz wybrał</div>
+    <div class="komputer-wybral">Komputer wybrał</div>
+    <div class="wynik-gracz"><p id="gestplr"></p></div>
+    <div class="wynik-komputer"><p id="gestpc"></p></div>
+</div>
+
+
+<div class="wynik">
+    <h1>Wynik rundy</h3>
+        <div class="p-miejsce">
+            <p id="demo"></p>
+        </div>
+</div>
+
+
+
+
+    <div id="scores">
+        <table id="tabela-scores" border="2px" width="100%" style="border-collapse: collapse">
+            <tr>
+                <td colspan="2" align="center"><b>PUNKTACJA</b></td>
+            </tr>
+            <tr>
+                <td width="50%" align="center"><b>Gracz</b></td>
+                <td align="center"><b>Komputer</b></td>
+            </tr>
+            <tr>
+                <td align="center"><p id="pktPlr">0</p></td>
+                <td align="center"><p id="pktPc">0</p></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
